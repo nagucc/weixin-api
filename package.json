@@ -1,0 +1,19 @@
+{
+  "name": "weixin-api",
+  "version": "0.0.1",
+  "description": "微信相关的API",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagucc/weixin-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagucc/weixin-api/issues"
+  },
+  "homepage": "https://github.com/nagucc/weixin-api#readme"
+}
