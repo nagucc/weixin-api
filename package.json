@@ -4,6 +4,7 @@
   "description": "微信相关的API",
   "main": "src/index.mjs",
   "scripts": {
+    "start": "node --experimental-modules src/index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/nagucc/weixin-api/issues"
   },
-  "homepage": "https://github.com/nagucc/weixin-api#readme"
+  "homepage": "https://github.com/nagucc/weixin-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "node-fetch": "^2.1.2"
+  }
 }
